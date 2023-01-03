@@ -41,7 +41,9 @@ Object.keys(config).forEach((language) => {
     new Map()
   );
 
-  console.log(language, installedVersions, versionsToKeep);
+  if (typeof process.env["DEBUG"] !== "undefined") {
+    console.log({ language, installedVersions, versionsToKeep });
+  }
 
   for (const installedVersion of installedVersions) {
     const versionToken = versionTokenFor(language, installedVersion);
