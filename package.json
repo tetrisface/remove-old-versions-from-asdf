@@ -1,7 +1,7 @@
 {
-  "name": "remove-old-nodejs-versions",
+  "name": "remove-old-versions-from-asdf",
   "version": "1.0.0",
-  "description": "Remove old nodejs versions from asdf",
+  "description": "Remove old versions from asdf",
   "main": "index.js",
   "type": "module",
   "author": "Robin Mehner <robin@coding-robin.de>",
