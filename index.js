@@ -4,6 +4,8 @@ import { execSync } from "node:child_process";
 const config = {
   nodejs: "major",
   ruby: "minor",
+  elixir: "minor",
+  erlang: "minor",
 };
 
 const versionTokenFor = (language, version) => {
