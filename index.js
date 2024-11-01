@@ -2,10 +2,11 @@ import { clean, parse, lt, eq } from "semver";
 import { execSync } from "node:child_process";
 
 const config = {
-  nodejs: "major",
-  ruby: "minor",
-  elixir: "minor",
-  erlang: "minor",
+  python: "*",
+  nodejs: "*",
+  // ruby: "minor",
+  // elixir: "minor",
+  // erlang: "minor",
 };
 
 const versionTokenFor = (language, version) => {
